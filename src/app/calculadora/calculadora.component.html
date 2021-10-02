@@ -1,1 +1,25 @@
-<p>calculadora works!</p>
+<div>
+  <h3>Calculadora Basica</h3>
+  <p>Haz algun calculo para ver el resultado.</p>
+  <input type="textfield" [(ngModel)]="expReg">
+  <br>
+  <input type="button" value="1" (click)="operarCadena('1')">
+  <input type="button" value="2" (click)="operarCadena('2')">
+  <input type="button" value="3" (click)="operarCadena('3')">
+  <input type="button" value="+" (click)="operarCadena('+')">
+  <br>
+  <input type="button" value="4" (click)="operarCadena('4')">
+  <input type="button" value="5" (click)="operarCadena('5')">
+  <input type="button" value="6" (click)="operarCadena('6')">
+  <input type="button" value="-" (click)="operarCadena('-')">
+  <br>
+  <input type="button" value="7" (click)="operarCadena('7')">
+  <input type="button" value="8" (click)="operarCadena('8')">
+  <input type="button" value="9" (click)="operarCadena('9')">
+  <input type="button" value="*" (click)="operarCadena('*')">
+  <br>
+  <input type="button" value="0" (click)="operarCadena('0')">
+  <input type="button" value="C" (click)="resetCalculadora()">
+  <input type="button" value="/" (click)="operarCadena('/')">
+  <input type="button" value="=" (click)="calcularOperaciones()">
+</div>
