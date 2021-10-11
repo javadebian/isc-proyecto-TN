@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { PrimengModule } from './primeng/primeng.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CalculadoraComponent } from './calculadora/calculadora.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    PrimengModule
   ],
   providers: [],
   bootstrap: [AppComponent]
