@@ -1,0 +1,23 @@
+<div id="flex-tablero">
+  <h1>Tres en raya</h1>
+  <div id="marcador">
+    <span id="player1">{{ pj }}</span>
+    <span id="player2">{{ sj }}</span>
+  </div>
+  <div id="tablero">
+    <span class="box" (click)="marcarElemento(1,p1)">{{ p1 }}</span>
+    <span class="box" (click)="marcarElemento(2,p2)">{{ p2 }}</span>
+    <span class="box" (click)="marcarElemento(3,p3)">{{ p3 }}</span>
+    <span class="box" (click)="marcarElemento(4,p4)">{{ p4 }}</span>
+    <span class="box" (click)="marcarElemento(5,p5)">{{ p5 }}</span>
+    <span class="box" (click)="marcarElemento(6,p6)">{{ p6 }}</span>
+    <span class="box" (click)="marcarElemento(7,p7)">{{ p7 }}</span>
+    <span class="box" (click)="marcarElemento(8,p8)">{{ p8 }}</span>
+    <span class="box" (click)="marcarElemento(9,p9)">{{ p9 }}</span>
+  </div>
+  <div>
+    <p-button (click)="iniciarJuego()">Iniciar</p-button>
+    <p-button (click)="resetJuego()">Reset</p-button>
+  </div>
+</div>
+

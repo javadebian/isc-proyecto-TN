@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import {FormsModule} from "@angular/forms";
 import { CalculadoraComponent } from './calculadora/calculadora.component';
 import { PrimengModule } from './primeng/primeng.module';
+import { TresEnRayaComponent } from './tres-en-raya/tres-en-raya.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    TresEnRayaComponent
   ],
   imports: [
     BrowserModule,
